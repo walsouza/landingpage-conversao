@@ -1,0 +1,700 @@
+/* Estilos Gerais */
+
+body {
+	font-family: Roboto, Helvetica, sans-serif;
+    background: #3e3e3e;
+}
+
+p {
+	font-family: Roboto, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #fff;
+	font-weight: 400;
+
+}
+
+img {
+	display: block;
+}
+
+/*FONTES*/
+
+.br-rap {
+  display: block;
+}
+
+.titulo-ldn {
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  margin-top: 70px;
+}
+.titulo-grid-text {
+  font-size: 59px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.fonteh1 {
+  font-size: 132px;
+  text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: rgba(255, 255, 255, 0);
+  line-height: 95px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.fonteh2 {
+  font-size: 39px;
+  font-weight: 300;
+  color: #fff;
+}
+.fonteh3-qm {
+  font-size: 60px;
+  text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  color: rgba(255, 255, 255, 0);
+  line-height: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.font-qm {
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.font-end {
+  font-size: 36px;
+  color: #fff;
+  line-height: 40px;
+}
+
+/* Header */
+
+.header {
+  position: block;
+  top: 0;
+  width: 100%;
+  background: none; 
+  padding: 15px 0;
+  z-index: 10;
+}
+
+/* Introdução */
+
+.introducao {
+  width: 100%;
+  height: 674px;
+  background: url("../img/header.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.container-max {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container-max:after, .container-max:before {
+  content: " ";
+  display: table;
+}
+
+.container-max:after {
+  clear: both;
+}
+
+.ambientes {
+  width: 1366px;
+  margin: 0 auto;
+  position: relative;
+  padding: 60px;
+  text-align: center;
+}
+.ambientes:after, .ambientes:before {
+  content: " ";
+  display: table;
+}
+
+.ambientes:after {
+  clear: both;
+}
+
+/*.ambientes img {
+  display: inline-block;
+  float: left;
+  max-width: 483px; !important
+  text-align: center;
+  margin: 10px;
+}*/
+
+.ambientes h1 {
+  font-size: 60px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-bottom: 30px;
+}
+
+.ambientes p {
+  padding-bottom: 20px;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.grid-int-1, .grid-int-2 {
+  width: 512px;
+  float: left;
+  margin-top: 90px;
+}
+.grid-int-1 {
+  padding-left: 30px;
+}
+.cxtxt {
+  width: 433px;
+  margin-top: 30px;
+}
+
+.form-land {
+  width: 510px;
+  background-color: rgba(126, 0, 1, 0.6);
+  padding: 30px 10px;
+  border-radius: 20px;
+}
+.form-land p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-land input, .form-land textarea {
+  display: block;
+  width: 100%;
+  margin: 15px auto;
+  padding: 24px 15px;
+  border-radius: 20px;
+  border: 0;
+}
+.form-land input[type="submit"] {
+  background: #7e0001;
+  width: 123px;
+  height: 67px;
+  border: 1px solid #fff;
+  border-radius: 0;
+  color: #fff;
+  text-transform: uppercase;
+  margin-left: 0;
+  transition: all 0.5s;
+}
+.form-land input[type="submit"]:hover {
+  background: none;
+}
+.form-land textarea {
+  height: 114px;
+}
+
+.select_regiao {
+  display: block;
+  width: 100%;
+  padding: 15px 15px;
+  background: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  color: #000;
+  margin: 0 auto;
+  border-radius: 20px;  
+}
+
+.priv {
+  display: block;
+  color: #fff;
+}
+
+.priv a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.bl-2 {
+  width: 100%;
+  height: 474px;
+  background: url("../img/segundo-destaque.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 60px;
+}
+
+.bl-2 h2 {
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+.bl-2 p {
+  text-align: center;
+  line-height: 46px;
+  margin-top: 45px;
+}
+.shape-blue-1 {
+  position: absolute;
+  top: 60px;
+  left: 152px;
+  z-index: 1;
+}
+
+.padding {
+  padding-bottom: 60px;
+}
+
+/*Sessão produtos*/
+
+.bl-prods {
+  width: 100%;
+}
+/*cozinha*/
+.grid-pd-mst {
+  width: 49%;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst img {
+  width: 100%;
+  height: 779px;
+}
+/*sala*/
+.grid-pd-mst-2 {
+  width: 488px;
+  width: 25.5%;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-2 img {
+  width: 100%;
+  height: 779px;
+}
+/*area de servico*/
+.grid-pd-mst-3 {
+  width: 25.5%;;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-3 img {
+  width: 100%;
+  height: 779px;
+}
+/*ambiente decorado*/
+.grid-pd-mst-4 {
+  width: 25.5%;;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-4 img {
+  width: 100%;
+  height: 779px;
+}
+/*home office decorado*/
+.grid-pd-mst-5 {
+  width: 25.5%;;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-5 img {
+  width: 100%;
+  height: 779px;
+}
+/*armario de quarto*/
+.grid-pd-mst-6 {
+  width: 49%;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-6 img {
+  width: 100%;
+  height: 779px;
+}
+
+/*armario de quarto*/
+.grid-pd-mst-4 {
+  width: 25.5%;;
+  height: 779px;
+  float: left;
+  position: relative;
+}
+.grid-pd-mst-4 img {
+  width: 100%;
+  height: 779px;
+} 
+
+.grid-coz-plan {
+  width: 960px;
+  width: 100%;
+  height: 779px;
+  background: url("../img/moveis-para-cozinhas-planejadas.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-text {
+  width: 726px;
+  height: 185px;
+  background-color: rgba(166, 74, 84);
+  margin-top: 4px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1;
+}
+.txt-nn {
+  width: 726px;
+  height: 185px;
+  margin-top: 4px;
+  padding: 27px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2
+}
+
+.grid-salas-plan, .area-srvc, .grid-amb-dec, .grid-ho-plan {
+  width: 488px;
+  width: 100%;
+  height: 779px;
+  background: url("../img/moveis-de-salas-planejadas.jpg") no-repeat center;
+  background-size: cover;
+  position: relative;
+}
+
+.grid-text-salas  {
+  width: 433px;
+  height: 260px;
+  background-color: rgba(69, 136, 48);
+  margin-top: 5px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1
+}
+
+.txt-nn-salas {
+  width: 433px;
+  height: 260px;
+  margin-top: 5px;
+  padding: 27px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.area-srvc {
+  background: url("../img/area-de-servico-sob-medida.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.area-srvc-tx {
+  width: 433px;
+  height: 260px;
+  margin-top: 5px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(191, 183, 7);
+}
+.area-srvc-txnn {
+  width: 433px;
+  height: 260px;
+  margin-top: 5px;
+  padding: 27px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.grid-amb-dec {
+  background: url("../img/ambientes-decorados-planejados.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.grid-text-ambdec {
+  width: 391px;
+  height: 174px;
+  background-color: rgba(253, 156, 4);
+  margin-top: 5px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1;
+}
+
+.txt-nn-ambdec {
+  width: 391px;
+  height: 174px;
+  margin-top: 5px;
+  padding: 23px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.grid-ho-plan {
+  background: url("../img/home-office-planejado.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.grid-text-hop {
+  width: 434px;
+  height: 174px;
+  background-color: rgba(148, 44, 178);
+  margin-top: 5px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1;
+}
+
+.txt-nn-ho {
+  width: 434px;
+  height: 174px;
+  margin-top: 5px;
+  padding: 23px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.grid-quart-plan {
+  width: 960px;
+  width: 49%;
+  height: 779px;
+  background: url("../img/armario-quarto-sob-medida.jpg") no-repeat center;
+  background-size: cover;
+  float: left;
+  position: relative;
+}
+.grid-text-quart {
+  width: 726px;
+  height: 185px;
+  background-color: rgba(71, 91, 160);
+  margin-top: 4px;
+  mix-blend-mode: multiply;
+  position: absolute;
+  z-index: 1;
+}
+.txt-nn-quart {
+  width: 726px;
+  height: 185px;
+  margin-top: 4px;
+  padding: 27px 30px;
+  position: absolute;
+  top: 0;
+  z-index: 2
+}
+
+.hover-ld-pd {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.hover-ld-pd:hover {
+  filter: grayscale(100%);
+}
+
+.ctt-ld {
+  width: 100%;
+  background: #98ac5c;
+  padding: 30px;
+  text-align: center;
+}
+
+.lnk-ld {
+  display: inline-block;
+  background: none;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+  margin-left: 15px;
+  transition: all 0.5s;
+}
+.lnk-ld:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+.ctt-ld h3 {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  margin-right: 15px;
+}
+
+.bl-3 {
+  width: 100%;
+  height: 529px;
+  background: url("../img/terceiro-destaque.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 30px;
+}
+
+.bl-3 h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.bl-3 h3:before {
+  content: "";
+  display: block;
+  width: 243px;
+  height: 6px;
+  background: #bfb707;
+  margin: 30px auto;
+}
+
+.grid-list {
+  width: 512px;
+  float: left;
+  margin: 0 auto;
+}
+.bl-3 ul {
+  list-style: none;
+  color: #fff;
+}
+.bl-3 li {
+  color: #fff;
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.bl-3 ul li::before {
+  content: "\2022";
+  list-style: circle;
+  color: #bfb707;
+  font-weight: bold;
+  display: inline-block; 
+  width: 30px;
+}
+
+.bl-qm {
+  width: 100%;
+  background: #2180b2;
+  padding: 60px 30px;
+}
+.bl-qm h3 {
+  margin-top: 0;
+}
+.grid-qm {
+  width: 250px;
+  float: left;
+}
+.grid-qm-2 {
+  width: 774px;
+  float: left;
+}
+
+.bl-end {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bl-end:after, .bl-end:before {
+  content: " ";
+  display: table;
+}
+
+.bl-end:after {
+  clear: both;
+}
+
+.bl-end h3 {
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+
+.bl-end h3:after {
+  content: "";
+  display: block;
+  width: 243px;
+  height: 6px;
+  background: #7e0001;
+  margin: 30px auto;
+}
+
+.shape-red-1 {
+  position: absolute;
+  z-index: 1;
+  top: 90px;
+  left: 0;
+}
+.shape-red-2 {
+  position: relative;
+}
+.shape-red-3 {
+  position: relative;
+  float: right;
+}
+
+.grid-end {
+  width: 30%;
+  text-align: center;
+  padding-top: 120px;
+  float: left;
+  position: relative;
+  margin-right: 2%;
+  margin-left: 2%
+}
+.grid-end-1 {
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.grid-end-2 {
+  width: 30%;
+  float: left;
+  margin-left: 2%;
+}
+.img-lj {
+  width: 100%;
+  height: auto;
+}
+.lcz-ico {
+  position: relative;
+  top: -60px;
+}
+
+
+/* Animação */
+
+[data-anime] {
+  opacity: 0;
+  transition: .7s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-150px, 0, 0);
+  -webkit-transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(150px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -150px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}

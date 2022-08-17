@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+	<title>Móveis Planejados com Entrega em 12 Dias úteis | Madeirol</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/grid.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsivo.css">
+	<link rel="shortcut icon" href="img/favicon.ico.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!-- JavaScript -->
+  </head>
+  <body>
+    <section class="introducao">
+      <header class="header"></header>
+      <div class="container">
+        <div class="grid-int-1">
+          <h1><span class="titulo-ldn">Móveis</span> <span class="fonteh1">Plane<span class="br-rap">jados</span></span></h1>
+          <div class="cxtxt">
+            <h2 class="fonteh2">com entrega em <b>12 dias úteis</b>, a entrega mais rápida do Brasil.</h2>
+          </div>
+        </div>
+        <div class="grid-int-2">
+          <div class="form-land" id="contato-ld">
+            
+            <p class="fonteh2">Fale com o projetista</p>
+            
+            <form class="form_proj" method="post" novalidate="novalidate" name="contato-projetista" id="formulario" onSubmit="return validaRadio()">
+                
+                <select class="select_regiao" onchange="selectCombo()" id="rdlCidade" name="rdlCidade">
+                  <option value="">Sua Região</option>
+                  
+                  <option value="2">Rio de Janeiro, Costa Verde, Região Serrana</option>
+                  
+                  <option value="1">Niterói e Região dos Lagos</option>
+                  
+                </select>
+                
+                <input type="text" id="nome" name="nome"  placeholder="Seu Nome">
+                
+                <input type="text" id="email" name="email" autocomplete="off" placeholder="Seu E-mail">
+                
+                <input type="text" id="telefone" name="telefone" placeholder="Seu Telefone" maxlength="15">
+                
+                <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+              
+              <input type="submit" class="envia_form" name="btnEnviar" id="btnEnviar" value="Enviar">
+              
+              <label class="priv">Clique aqui para acessar a <a href="/termo-privacidade-madeirol">Política de Privacidade Madeirol.</a></label>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="bl-2">
+      <div class="container">
+        <img src="img/shape-blue.png" class="shape-blue-1">
+        <h2 class="titulo-ldn">Reinvente seu espaço</h2>
+        <p class="fonteh2"><font style="text-transform: uppercase; display: block;">Temos mais de 3.000 projetos</font>
+          de móveis planejados para sua inspiração.</p>
+      </div>
+    </section>
+    
+    <section class="container-max">
+    
+      <div class="bl-prods">
+      
+        <a href="/3000-projetos-de-moveis-planejados" title="Projetos de Cozinhas Planejadas">
+        <div class="grid-pd-mst">
+          <div class="grid-text">
+          </div>
+          <div class="txt-nn">
+            <h3 class="titulo-grid-text"><font class="br-rap">Móveis para</font><font style="font-weight: 600">cozinhas</font> planejadas</h3>
+          </div>
+        <!--<div class="grid-coz-plan hover-ld-pd">
+          
+        </div>-->
+          <img src="img/moveis-para-cozinhas-planejadas.jpg" class="hover-ld-pd" alt="Móveis para cozinhas planejadas">
+        </div>
+        </a>
+        
+        <a href="/3000-projetos-de-moveis-planejados/index.asp?sArea=Salas" title="Projetos de Salas Planejadas">
+        <div class="grid-pd-mst-2">
+          <div class="grid-text-salas">
+          </div>
+            <div class="txt-nn-salas">
+              <h3 class="titulo-grid-text"><font class="br-rap">Móveis</font>de <font style="font-weight: 600">salas</font> planejadas</h3>
+            </div>
+          <!--<div class="grid-salas-plan hover-ld-pd">
+            
+          </div>-->
+          <img src="img/moveis-de-salas-planejadas.jpg" class="hover-ld-pd" alt="Móveis de salas planejadas">
+        </div>
+        </a>
+        
+        <a href="/3000-projetos-de-moveis-planejados/index.asp?sArea=Cozinhas&sProjeto=Área%20de%20Serviço" title="Projetos de Área de Serviço Planejadas">
+        <div class="grid-pd-mst-3">
+          <div class="area-srvc-tx">
+          </div>
+            <div class="area-srvc-txnn">
+              <h3 class="titulo-grid-text"><font style="font-weight: 600">área de serviço</font><font class="br-rap">sob medida</font></h3>              
+          </div>
+          <!--<div class="grid-salas-plan area-srvc hover-ld-pd">
+            
+          </div>-->
+          <img src="img/area-de-servico-sob-medida.jpg" class="hover-ld-pd" alt="área de serviço sob medida">
+        </div>
+        </a>
+        
+        <a href="/3000-projetos-de-moveis-planejados/index.asp?sArea=Decorados" title="Projetos de Apartamentos Decorados">
+        <div class="grid-pd-mst-4">
+          <div class="grid-text-ambdec">
+          </div>
+          <div class="txt-nn-ambdec">
+            <h3 class="titulo-grid-text"><font class="br-rap">Ambientes</font><font style="font-weight: 600">Decorados</font></h3>
+          </div>
+        <!--<div class="grid-salas-plan grid-amb-dec hover-ld-pd">
+          
+        </div>-->
+          <img src="img/ambientes-decorados-planejados.jpg" class="hover-ld-pd" alt="Apartamentos decorados - armários planejados">
+        </div>
+        </a>
+        
+        <a href="/3000-projetos-de-moveis-planejados/index.asp?sArea=Escritorios" title="Projetos de Home Office, Escritórios, Consultórios e Salas Comerciais Planejadas">
+        <div class="grid-pd-mst-5">
+          <div class="grid-text-hop">
+          </div>
+          <div class="txt-nn-ho">
+            <h3 class="titulo-grid-text"><font style="font-weight: 600; white-space: nowrap;">Home Office</font><font class="br-rap">planejado</font></h3>
+          </div>
+        <!--<div class="grid-salas-plan grid-ho-plan hover-ld-pd">
+          
+        </div>-->
+          <img src="img/home-office-planejado.jpg" class="hover-ld-pd" alt="Home Office planejado">
+        </div>
+        </a>
+        
+        <a href="/3000-projetos-de-moveis-planejados/index.asp?sArea=Quartos" title="Projetos de Quartos Planejados">
+        <div class="grid-pd-mst-6">
+          <div class="grid-text-quart">
+          </div>
+          <div class="txt-nn-quart">
+            <h3 class="titulo-grid-text">Armário de <font style="font-weight: 600; ">quarto</font><font class="br-rap">sob medida</font></h3>
+          </div>
+        <!--<div class="grid-quart-plan hover-ld-pd">
+          
+        </div>-->
+          <img src="img/armario-quarto-sob-medida.jpg" class="hover-ld-pd" alt="Armário de quarto sob medida planejado">
+        </div>
+        </a>
+        
+      </div>
+      
+    </section>
+    
+    <section class="ctt-ld">
+      <div class="container">
+        
+        <h3 class="fonteh2">Quero falar com um projetista</h3>
+        <a href="#contato-ld" class="lnk-ld">Fale conosco</a>
+      
+      </div>
+    </section>
+    
+    <section class="bl-3">
+      <div class="container">
+        <h3 class="fonteh2">Porque escolher a Madeirol</h3>
+        <ul class="grid-list">
+          <li>Projeto Gratuito e Personalizado</li>
+          <li>50 Anos de Experiência no Mercado</li>
+          <li>Entrega Mais Rápida do Brasil</li>
+          <li>12 Dias Úteis</li>
+          <li>Fabricação Própria</li>
+        </ul>
+        <ul class="grid-list">
+          <li>Materiais de Alta Qualidade e Durabilidade</li>
+          <li>Financiamento Próprio</li>
+          <li>Supervisão Pós-Montagem</li>
+          <li>Medição no Local</li>
+          <li>Tecnologia de Ponta</li>
+        </ul>
+      </div>
+    </section>
+    
+    <section class="bl-qm">
+      <div class="container">
+        <div class="grid-qm">
+          <h3 class="titulo-ldn">Quem<span class="br-rap fonteh3-qm">somos</span></h3>
+        </div>
+        <div class="grid-qm-2">
+          <p class="font-qm">
+            A Madeirol é uma empresa carioca que trabalha há mais de 50 anos criando e fabricando móveis planejados de alta qualidade e durabilidade dentro do prazo mais curto do Brasil: apenas 12 dias úteis do planejamento até a entrega.<br><br>
+            
+            Oferecemos sempre um atendimento personalizado e de excelência para a total satisfação do cliente.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <div class="container-max">
+      <section class="bl-end">
+        <div class="grid-end">
+          <img src="/img/shape-red-1.png" class="shape-red-2">
+          <h3 class="fonteh2">Agende uma visita em<span class="br-rap">uma de nossas lojas</span></h3>
+          <p class="font-end">na Barra da Tijuca - Rio de<span class="br-rap">Janeiro ou em Niterói - Icaraí</span></p>
+          <img src="img/shape-red-2.png" class="shape-red-3">
+        </div>
+        
+        <div class="grid-end-1">
+          <img src="img/loja-barra-da-tijuca-rj.jpg" alt="Loja de móveis planejados no Rio de Janeiro - Barra da Tijuca" class="img-lj">
+          <a href="https://www.google.com/maps/place/Madeirol+M%C3%B3veis+Planejados+-+Casa+Shopping/@-22.992795,-43.3662937,17z/data=!3m1!4b1!4m5!3m4!1s0x9bda35a677cfa9:0x302234423d9dc71e!8m2!3d-22.992795!4d-43.364105" target="_blank"><img src="img/localizacao-ico.png" class="lcz-ico"></a>
+        </div>
+        
+        <div class="grid-end-2">
+          <img src="img/loja-niteroi-icarai-rj.jpg" alt="Loja de móveis planejados em Niterói - Icaraí | Rio de Janeiro" class="img-lj">
+          <a href="https://www.google.com/maps/place/Madeirol+M%C3%B3veis+Planejados+-+Icara%C3%AD/@-22.9033458,-43.1148629,17z/data=!3m1!4b1!4m5!3m4!1s0x9983e4332ae7e3:0xb7b517fdb357ab29!8m2!3d-22.9033267!4d-43.1126533?shorturl=1" target="_blank"><img src="img/localizacao-ico.png" class="lcz-ico"></a>
+        </div>
+        
+      </section>
+    </div>
+    
+    <script>
+      $('.ctt-ld a[href^="#"]').on('click', function(e) {
+        e.preventDefault();
+        var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+        $('html, body').animate({ 
+            scrollTop: targetOffset - 100
+        }, 500);
+    });
+    </script>
+    
+  </body>
+</html>
